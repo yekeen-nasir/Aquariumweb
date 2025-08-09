@@ -8,8 +8,7 @@ Feel Free to fix this issues 🎈🔹🔹🔹🔹
 
 
 <h1>Below is the awuarium website</h1>
-<p>The animations allows the fishes and the bubbles to move but apparently my image aint even showing so best of luck</p>
-
+<p>The animations allows the fishes and the bubbles to move but apparently fishes image aint even showing also, so best of luck</p>
 
 
 ![Alt text](Screenshot(320).png)

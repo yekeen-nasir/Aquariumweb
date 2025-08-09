@@ -13,6 +13,6 @@ Feel Free to fix this issues 🎈🔹🔹🔹🔹
 
 
 
-<img src="screenshot(320).png" alt="Screenshot" width="500" height="800"/>
+<img src="Screenshot(320).png" alt="Screenshot" width="500" height="800"/>
 
 

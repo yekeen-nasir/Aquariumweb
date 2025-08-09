@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fish-color: #ff6347; /* Tomato color for the fish */
+    --background-color: #87ceeb; /* Sky blue for the background */
+    --water-color: #1e90ff; /* Dodger blue for the water */
+    --aquafont: 25px;
+}
+body {
+    background-image: url("../images/bg3.jpeg");
+    background-repeat: no-repeat;
+    background-size:100%;    
+    height: 100vh;
+}
+main{
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: black; */
+    margin:7em 30%;
+    color: var(--background-color);
+    font-size: var(--aquafont);
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: welcome 10s linear forwards;
+    border-radius: 40px;
+    background: linear-gradient(to bottom, rgba(149, 26, 26, 0.8), rgba(0, 0, 0, 0.5)), url("../images/bg2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main:hover{
+    animation-play-state: paused;
+    /* animation-delay: 10s; */
+    cursor: pointer;
+}
+@keyframes welcome{
+    0%{
+        opacity: 0;
+        transform: scale(0.1);
+    }
+    20%{
+        opacity: 0.2;
+        transform: scale(0.5);
+    }
+    40%{
+        opacity: 0.8;
+        transform: scale(0.8);
+    }
+    60%{
+        opacity: 0.8;
+        transform: scale(0.9);
+    }
+    80%{
+        opacity: 0.9;
+        transform: scale(1.0);
+    }
+    100%{
+        opacity: 0.9;
+        transform: scale(1.1);
+    }
+}
+.bubble{
+    z-index: 10;
+    display: flex;
+    position: absolute;
+    top: 90%;
+    justify-content: space-around;
+    width: 100%;
+}
+.bubbles{
+    width: 50px;
+    opacity: 0;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation:bubanime 10s linear infinite;
+}
+@keyframes bubanime{
+    0%{
+        transform: translateY(-10%);
+        opacity: 0.7;
+    }
+    90%{
+        transform: translateY(-1000%);
+        opacity: 0.4;
+    }
+    95%{
+        transform: translateY(-1300%);
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.bubble1{
+    animation-delay: 1s;
+}
+.bubble2{
+    animation-delay: 6s;
+}
+.bubble3{
+    animation-delay: 7s;
+}
+.bubble4{
+    animation-delay: 6s;
+}
+.bubble5{
+    animation-delay: 3s;
+}
+.bubble6{
+    animation-delay: 4s;
+}
+.bubble7{
+    animation-delay: 5s;
+}
+.bubble8{
+    animation-delay: 2s;
+}
+.bubble9{
+    animation-delay: 8s;
+}
+.bubble10{
+    animation-delay: 9s;
+}
+.fishes {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* background-color:black ; */
+}
+.fishes > img {
+    width: 150px;
+    height: 100px;
+}
+.fish {
+    opacity: 0.8;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: fishmove 20s linear infinite, dingin 20s linear infinite;
+}
+.fish:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.fish1{
+    animation: fishmove 15s linear 0s infinite;
+    animation-direction: reverse;
+}
+.fish2{
+    animation: fishmove 15s linear 0s infinite;
+    /* animation-direction: reverse; */
+}
+.fish3{
+    animation: fishmove 25s linear 0s infinite;
+    /* animation-direction: reverse; */
+}
+.fish4{
+    animation: fishmove 10s linear 0s infinite;
+    animation-direction: reverse;
+}
+.fish5{
+    animation: fishmove 30s linear 0s infinite;
+    animation-direction: reverse;
+}
+@keyframes fishmove{
+    0%{
+        transform: translateX(-10em);
+        /* transform: rotate(10deg) */
+    }
+    20%{
+        transform: translateX(25em);
+        /* transform: rotate(20deg); */
+    }
+    50%{
+        transform: translateX(55em);
+        /* transform: rotate(10deg); */
+    }
+    70%{
+        transform: translateX(75em);
+        /* transform: rotate(20deg); */
+    }
+    100%{
+        transform: translateX(85em);
+        /* transform: rotate(10deg); */
+    }
+}
+@keyframes dinging{
+    0%{
+        transform: rotate(10deg)
+    }
+    20%{
+        transform: rotate(20deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    70%{
+        transform: rotate(20deg);
+    }
+    90%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(20deg);
+    }
+}
+
+
+

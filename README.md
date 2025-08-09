@@ -7,6 +7,10 @@ A project came up so i decided to leave this although it isnt hard to fix
 Feel Free to fix this issues 🎈🔹🔹🔹🔹
 
 
+<h1>Below is the awuarium website</h1>
+<p>The animations allows the fishes and the bubbles to move but apparently my image aint even showing so best of luck</p>
+
+
 
 ![Alt text](Screenshot(320).png)
 

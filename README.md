@@ -11,6 +11,8 @@ Feel Free to fix this issues 🎈🔹🔹🔹🔹
 <p>The animations allows the fishes and the bubbles to move but apparently fishes image aint even showing also, so best of luck</p>
 
 
-![Alt text](Screenshot(320).png)
+
+
+<img src="screenshot(320).png" alt="Screenshot" width="500" height="800"/>
 
 

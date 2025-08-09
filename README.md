@@ -8,6 +8,6 @@ Feel Free to fix this issues 🎈🔹🔹🔹🔹
 
 
 
-![Alt text](images/screenshot.png)
+![Alt text](Screenshot(320).png)
 
 
